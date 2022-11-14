@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Advertisements;
 
 public class AdsManager : MonoBehaviour
 {
@@ -8,11 +7,11 @@ public class AdsManager : MonoBehaviour
 
     private void Start()
     {
-        Advertisement.Initialize(gameId, testMode);
+        //Advertisement.Initialize(gameId, testMode);
     }
 
     public void ShowAd()
     {
-        Advertisement.Show();
+        //Advertisement.Show();
     }
 }
